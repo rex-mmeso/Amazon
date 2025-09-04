@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="flex.css">
+    <style>
+        body{
+            background-color: rgb(249, 247, 247);
+        }
+
+        .flexbox{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;                                  
+            flex-direction: row;
+            align-items: center;
+            gap: 30px;
+        }
+
+        img{
+            height: 300px;
+            width: 300px;
+        }
+
+        .card{
+            background-color: aquamarine;
+            padding-top: 40px;
+            width: 330px;
+            height: 450px;
+            text-align: center;
+            border: 1px solid rgb(192, 132, 132);
+        }
+
+        .complete-progress{
+            height: 10px;
+            background-color: orange;
+            border-radius: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        .incomplete-progress{
+            height: 10px;
+            background: linear-gradient(to right, red 0%, red 30%, #7d7979 30%, #7d7979 100%);
+            border-radius: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Welcome</h1>
+
+    <div class="flexbox">
+        <div class="card">
+            <img src="./ima09.jpeg" alt="">
+            <p>Price: $2,000</p>
+            <p>This is pure gold</p>
+            <div class="complete-progress"></div>
+        </div>
+        <div class="card">
+            <img src="./images1.jpeg" alt="">
+            <p>Price: $3000</p>
+            <p>Color: Yello</p>
+            <div class="incomplete-progress"></div>
+        </div>
+        <div class="card">
+            <img src="./image2.jpeg" alt="">
+            <p>Price: $4000</p>
+            <p>Color: Red</p>
+        </div>
+        <div class="card">
+            <img src="./image3.jpeg" alt="">
+            <p>Price: $5000</p>
+            <p>Color: Pink</p>
+        </div>
+        <div class="card">
+            <img src="./images4.jpeg" alt="">
+            <p>Price: $6000</p>
+            <p>Color: Green</p>
+        </div>
+        <div class="card">
+            <img src="./images5.jpeg" alt="">
+            <p>Price: $7000</p>
+            <p>Color: Black</p>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
