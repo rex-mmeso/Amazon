@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+}
+header{
+    background-image: url(./back.jpeg);
+    text-align: center;
+    margin-top: 1px;
+    color: aliceblue;
+}
+nav{
+    background-color: aliceblue;
+    text-align: right;
+}
+ul{
+    color: aliceblue;
+
+}
+.box{
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.card{
+    height: 150px;
+    width: 110px;
+    background-color: yellow;
+    text-align: center;
+    border: 3px solid;
+    border-color:lawngreen;
+    padding: 20px;
+}
+span{
+    font-style: italic;
+    color: red;
+    
+}
+.line{
+    height: 10px;
+    border: 1px solid;
+    background: linear-gradient(to right, red 0%, red 40%, yellow 40%, yellow 100% );
+    border-radius: 10px;
+}
+.card2{
+    height: 150px;
+    width: 110px;
+    background-color: lime;
+    text-align: center;
+    border: 3px solid;
+    border-color: gold;
+    padding: 20px;
+}
+.card3{
+    height: 150px;
+    width: 110px;
+    background-color: aliceblue;
+    text-align: center;
+    border: 3px solid;
+    border-color: red;
+    padding: 20px;
+}
+.card4{
+    height: 150px;
+    width: 110px;
+    background-color: burlywood;
+    border: 3px solid aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+.line2{
+    height: 10px;
+    border: 1px solid color(srgb rgb(197, 56, 56) green blue);
+    background-color: aqua;
+    border-radius: 10px;
+}
+footer{
+    background-color: aliceblue;
+    font-style: italic;
+    text-align: center;
+}
+.sidebar{
+    width: 200px;
+    background-color: #444;
+    padding: 30px;
+    color: aliceblue;
+
+}
+.main-layout{
+    display: flex;
+    margin-top: 60px;
+    height: calc(100vh- 60px);
+}

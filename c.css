@@ -1,0 +1,36 @@
+.yes{
+    color: aqua;
+    font-size: 30px;
+    text-align: center;
+    background-image: url(./back.jpeg);
+}
+.me{
+    text-align: right;
+    border-radius: 30px;
+    border: 10px solid;
+    border-color: blue;
+}
+#me{
+    border: 10px dotted;
+    border-color: blue;
+    border-radius: 500px;
+    text-align: center;
+}
+.y{
+    text-align: center; 
+    border: 30px solid; 
+    font-style: italic; 
+    background-color: aqua; 
+    font-size: 50px;
+    border-color: blue;
+}
+.t{
+    background-image: url(./news-1.jpg);
+    text-align: right;
+    font-size: 50px;
+    background-size: contain;
+}
+.m{
+    text-align: right;
+}
+
