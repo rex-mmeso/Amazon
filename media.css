@@ -1,0 +1,61 @@
+body {
+    background-color: red;
+}
+h1{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width:1200px) {
+
+    body {
+        background-color: black;
+    }
+
+    h1 {
+        color: azure;
+        text-align: left;
+    }
+
+    .myimage{
+        height: 300px;
+        width: 300px;
+    }
+
+    .flex{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+}
+
+
+
+@media(max-width: 768px) {
+    body {
+        background-color: white;
+    }
+    h1{
+        font-style: italic;
+        color: blue;
+        text-align: right;
+    }
+
+    .myimage{
+        height: 150px;
+        width: 150px;
+    }
+
+    .flex{
+        gap: 0px;
+        flex-direction: row;
+    }
+
+}

@@ -1,0 +1,13 @@
+img{
+    height: 100px;
+    width: 100px;
+    border: 10px solid blue;
+    margin-left: 30px;
+    padding-bottom: 20px;
+    background-color: chartreuse;
+}
+h1{
+    font-size: 50px;
+    color: aqua;
+    background-color: rgba(200, 102, 80, 0.1);
+}

@@ -1,0 +1,99 @@
+.awoof{
+    color: red;
+    background: linear-gradient(to right, orange 0%, orange 60%, white 60%, white 90%, red 90% red 100%);
+    margin-top: 0;
+    margin-left: 30px;
+    font-size: 20px;
+    padding-left: 50px;
+}
+body{
+    background-color: orange;
+}
+header{
+    position: sticky;
+    top: 0px;
+    background-color: aliceblue;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    padding-left: 50px;
+    height: 100px;
+    
+
+}
+.jumia{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 30px;
+    
+}
+main{
+    margin-top: 10px;
+}
+.icon{
+    background-color: aliceblue;
+    width: 200px;
+    height: 390px;
+    margin-left: 50px;
+    border-radius: 10px;
+    font-size: 11px;
+}
+.icon ul{
+    list-style: none;
+}
+.jumia2{
+    margin-left: 200px;
+    padding-top: 20px;
+    font-size: 32px;
+}
+.search{
+    height: 30px;
+    width: 500px;
+    border: 0.5px solid black;
+    border-radius: 2px;
+}
+.search:focus{
+    background-color: lightgray;
+    border: 2px dotted red;
+}
+.btn{
+    width: 90px;
+    height: 35px;
+    background-color: orange;
+    padding-bottom: 20px;
+
+}
+.btn:hover{
+    background-color: rgb(141, 94, 6);
+}
+.btn:active{
+    width: 150px;
+    background-color: aqua;
+}
+/* .border{
+    border: 5px solid; */
+/* } */
+.container-fluid{
+    margin-top: 10px;
+    /* margin-left: 100px; */
+    padding-left: 75px;
+}
+.card{
+    height: 190px;
+    width: 140px;
+    
+    
+}
+
+.img-fluid{
+    height: 120px;
+    width: 140px;
+    padding-top: 5px;
+}
+.img-fluid:hover{
+    height: 130px;
+    width: 130px;
+}
+p{
+    text-align: center;
+}
