@@ -1,0 +1,51 @@
+.myh1{
+    color: red;
+}
+
+
+.myh1:hover{
+    color: blue;
+    text-align: center;
+}
+
+.btn{
+    background-color: aquamarine;
+    color: red;
+}
+
+
+.btn:active{
+    padding: 30px;
+    color: blue;
+}
+
+
+
+.inpts{
+    background-color: blueviolet;
+}
+
+
+.inpts:focus{
+    background-color: rgb(235, 232, 232);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.box{
+    height: 180px;
+    width: 180px;
+    overflow: hidden;
+}
+
+img{
+    height: 180px;
+    width: 180px;
+}
+
+
+img:hover{
+    height: 185px;
+    width: 185px;
+    /* border: 5px solid red; */
+}

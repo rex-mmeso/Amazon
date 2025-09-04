@@ -1,0 +1,51 @@
+.absolute{
+    position: absolute;
+    padding: 200px;
+    background-color: yellow;
+    width: 500px;
+    top: 400px;
+    right: 250px;
+    z-index:8888;
+}
+
+
+
+.absolute2{
+    position: absolute;
+    padding: 200px;
+    background-color: red;
+    width: 500px;
+    top: 300px;
+    right: 50px;
+    z-index: 50;
+}
+
+
+.fixed{
+    position: fixed;
+    padding: 50px;
+    background-color: green;
+    top:0;
+    width:100%;
+    z-index: 9000;
+}
+
+.sticky{
+    position: sticky;
+    padding: 300px;
+    background-color: blue;
+    width: 300px;
+    top:150px;
+}
+
+
+.scrolltotop{
+    position: fixed;
+    right:10px;
+    bottom:10px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(143, 113, 113);
+    border-radius: 50%;
+    z-index: 100000;
+}
